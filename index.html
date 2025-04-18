@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluentialab Academy | Master Your Language Skills</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo-container">
+        <img src="img/LOGO.png" alt="Fluentialab Academy Logo">
+        <h1>Fluentialab Academy</h1>
+      </div>
+      <nav>
+        <a href="#" id="en-toggle" onclick="changeLanguage('en')">English</a>
+        <a href="#" id="ar-toggle" class="active-lang" onclick="changeLanguage('ar')">العربية</a>
+      </nav>
+    </div>
+  </header>
+
+<!-- Arabic Content -->
+<div id="ar-content" class="language-content rtl active">
+  <section class="hero">
+    <div class="container">
+      <h2>اكسب مهارات اللغة مع Fluentialab Academy</h2>
+      <p>انضم إلى دورات OET، IELTS، اللغة الألمانية، وTOEFL مع خبراء معتمدين واستراتيجيات مجربة لتضمن النجاح.</p>
+      <a href="#order-now-ar" class="cta-button">سجل الآن</a>
+    </div>
+  </section>
+
+  <section class="feature-section">
+    <div class="container">
+      <h3>لماذا تختار Fluentialab Academy؟</h3>
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon">🎓</div>
+          <h3>مدربون خبراء</h3>
+          <p>تعلم من أفضل المدربين المعتمدين الذين يقدمون خبراتهم العملية واستراتيجياتهم المُجربة.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🌟</div>
+          <h3>منهج مخصص</h3>
+          <p>برنامج دراسي مُصمم ليتناسب مع مستوى كل طالب وأهدافه المهنية.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">⏰</div>
+          <h3>مرونة الوقت</h3>
+          <p>احضر الفصول عبر الإنترنت أو وجهًا لوجه، مع جداول مرنة تتناسب مع نمط حياتك.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="product-section rtl">
+    <div class="container">
+      <h3>دوراتنا</h3>
+      <div class="product-slider">
+
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1581091012184-7e7408a05740?auto=format&fit=crop&w=400&q=60" alt="دورة OET">
+          <h4>دورة OET</h4>
+          <p>استعد لاختبار OET الطبي مع مدربين معتمدين ومحتوى تركيزي.</p>
+          <div class="price">سعر حسب الطلب</div>
+          <a class="cta-button" href="#order-now-ar">سجل الآن</a>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=400&q=60" alt="دورة IELTS">
+          <h4>دورة IELTS</h4>
+          <p>تدريب شامل على مهارات الاستماع، القراءة، الكتابة، والمحادثة لضمان نتائج ممتازة.</p>
+          <div class="price">سعر حسب الطلب</div>
+          <a class="cta-button" href="#order-now-ar">سجل الآن</a>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1606947968058-f83039a73d3b?auto=format&fit=crop&w=400&q=60" alt="دورة اللغة الألمانية">
+          <h4>دورة اللغة الألمانية</h4>
+          <p>تعلم الألمانية من المستوى المبتدئ إلى المتقدم بطلاقة وثقة.</p>
+          <div class="price">سعر حسب الطلب</div>
+          <a class="cta-button" href="#order-now-ar">سجل الآن</a>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1511457538425-4df0f05a2bb2?auto=format&fit=crop&w=400&q=60" alt="دورة TOEFL">
+          <h4>دورة TOEFL</h4>
+          <p>مواد تركز على مهارات اللغة الأكاديمية للاستعداد لاختبار TOEFL بنجاح.</p>
+          <div class="price">سعر حسب الطلب</div>
+          <a class="cta-button" href="#order-now-ar">سجل الآن</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="order-now-ar">
+    <div class="container">
+      <div class="order-form">
+        <h3>سجل اهتمامك</h3>
+        <form id="whatsapp-form-ar">
+          <div class="form-group">
+            <label for="name-ar">الاسم الكامل</label>
+            <input type="text" id="name-ar" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email-ar">البريد الإلكتروني</label>
+            <input type="email" id="email-ar" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone-ar">رقم الهاتف</label>
+            <input type="tel" id="phone-ar" name="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="course-ar">اختر الدورة</label>
+            <select id="course-ar" name="course">
+              <option value="OET">دورة OET</option>
+              <option value="IELTS">دورة IELTS</option>
+              <option value="German">دورة اللغة الألمانية</option>
+              <option value="TOEFL">دورة TOEFL</option>
+            </select>
+          </div>
+          <button type="submit">إرسال</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</div>
+
+  <!-- English Content -->
+  <div id="en-content" class="language-content">
+    <section class="hero">
+      <div class="container">
+        <h2>Master Your Language Skills with Fluentialab Academy</h2>
+        <p>Join our OET, IELTS, German, and TOEFL courses taught by expert instructors with proven strategies for success.</p>
+        <a href="#order-now" class="cta-button">Enroll Now</a>
+      </div>
+    </section>
+
+    <section class="feature-section">
+      <div class="container">
+        <h3>Why Choose Fluentialab Academy?</h3>
+        <div class="features">
+          <div class="feature">
+            <div class="feature-icon">🎓</div>
+            <h3>Expert Instructors</h3>
+            <p>Learn from certified professionals who bring real-world experience and proven methods.</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">🌟</div>
+            <h3>Personalized Curriculum</h3>
+            <p>Customized study plans tailored to each student's level and professional goals.</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">⏰</div>
+            <h3>Flexible Schedules</h3>
+            <p>Join online or in-person classes with schedules that fit your lifestyle.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-section">
+      <div class="container">
+        <h3>Our Courses</h3>
+        <div class="product-slider">
+
+          <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1581091012184-7e7408a05740?auto=format&fit=crop&w=400&q=60" alt="OET Course">
+            <h4>OET Course</h4>
+            <p>Prepare for the Occupational English Test with targeted medical English content.</p>
+            <div class="price">Contact for pricing</div>
+            <a class="cta-button" href="#order-now">Enroll Now</a>
+          </div>
+
+          <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=400&q=60" alt="IELTS Course">
+            <h4>IELTS Course</h4>
+            <p>Comprehensive training for all four IELTS skills to achieve high band scores.</p>
+            <div class="price">Contact for pricing</div>
+            <a class="cta-button" href="#order-now">Enroll Now</a>
+          </div>
+
+          <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1606947968058-f83039a73d3b?auto=format&fit=crop&w=400&q=60" alt="German Language Course">
+            <h4>German Language Course</h4>
+            <p>Learn German from beginner to advanced levels with fluency and confidence.</p>
+            <div class="price">Contact for pricing</div>
+            <a class="cta-button" href="#order-now">Enroll Now</a>
+          </div>
+
+          <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1511457538425-4df0f05a2bb2?auto=format&fit=crop&w=400&q=60" alt="TOEFL Course">
+            <h4>TOEFL Course</h4>
+            <p>Academic English preparation with materials designed to excel in the TOEFL exam.</p>
+            <div class="price">Contact for pricing</div>
+            <a class="cta-button" href="#order-now">Enroll Now</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+        
+    <section id="order-now">
+      <div class="container">
+        <div class="order-form">
+          <h3>Get in Touch</h3>
+          <form id="whatsapp-form">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+              <label for="course">Select Course</label>
+              <select id="course" name="course">
+                <option value="OET">OET Course</option>
+                <option value="IELTS">IELTS Course</option>
+                <option value="German">German Language Course</option>
+                <option value="TOEFL">TOEFL Course</option>
+              </select>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer lang="ar" dir="rtl">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h4>نبذة عنا</h4>
+          <p>Fluentialab Academy مكرسة لتمكين المهنيين بمهارات لغوية تناسب الفرص العالمية.</p>
+        </div>
+        <div class="footer-column">
+          <h4>تواصل معنا</h4>
+          <address>
+            عمّان، الأردن
+          </address>
+          <p>البريد الإلكتروني: info@fluentialab.com</p>
+          <p>هاتف: <a href="tel:+962771234567">0771234567</a></p>
+        </div>
+        <div class="footer-column">
+          <h4>تابعنا</h4>
+          <div class="social-links">
+            <a href="https://linkedin.com/company/fluentialab" target="_blank">تابعنا على لينكدإن</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        © 2025 Fluentialab Academy. All rights reserved.
+      </div>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
